@@ -106,12 +106,12 @@ router.put('/update-recipe/:id', (req, res) => {
   RecipeModel.findOneAndUpdate(
     {recipeId},
     {name, description,ingredients,imageUrl,userId},
-    {new:true})
-    
- .then(results => {
+    {new:true})  
+ .then(recipeId => {
   RecipeModel.find({})
-   return res.json(results)
-  }).catch(err => console.log(err))
+   return res.json(recipeId)
+  })
+  .catch(err => console.log(err))
 })
 
 module.exports =router
