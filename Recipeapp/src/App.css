@@ -63,7 +63,7 @@
 
 /* read-recipe */
 .read-cover{
-  background-image: url(https://img.freepik.com/premium-photo/modern-cafe-menu-design-with-beverage-recipe-space_1274913-9608.jpg?w=1480);
+  background-image: url("modern-cafe-menu-design-with-beverage.avif");
   background-size:cover; background-position: center;
   width: 80%; height: 120vh;
   /* image-orientation: flip; */
@@ -139,7 +139,7 @@ top: 60px;
 
 /* create-recipe*/
 .Create-all{
-    background-image: url(https://i5.walmartimages.com/asr/1adcfdb7-3d93-4b0c-8ca4-fe27ddeb1494_1.f86d84298bd14ca96410ac161b489aa7.jpeg);
+    background-image: url("recipe-m.jpeg");
     background-size:cover; 
     background-position:center;
     width: 60%;
@@ -235,7 +235,7 @@ top: 60px;
     padding: 5px;
 }
 .saved{
-    background-image: url(https://i5.walmartimages.com/asr/3e9653ba-e707-49e0-8220-eccd9ce9b503_1.914900352e46875a98f985036df3b3ee.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff);
+    background-image: url("book.webp");
     padding: 30px;   
     background-size:cover; background-position:center;
 }
@@ -249,7 +249,7 @@ top: 60px;
 
 /* log in  */
 .login-all{
-    background-image: url(https://i.pinimg.com/originals/9d/21/95/9d219547198a8df8c37125bcaa863a44.jpg); 
+    background-image: url("login-page.jpg"); 
     background-size:cover; background-position:center;
     height: 100vh;
 }
@@ -272,7 +272,7 @@ top: 60px;
 
 /* sign in */
 .signin-all{
-    background-image: url(https://e0.pxfuel.com/wallpapers/52/830/desktop-wallpaper-food-background-food-food-recipes-food-menu-greek-food.jpg); 
+    background-image: url("food-background.jpg"); 
     background-size:cover; background-position:center;
     height: 100vh;
     transform: scale(0.9999);
